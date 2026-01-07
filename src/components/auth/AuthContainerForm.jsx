@@ -17,7 +17,7 @@ const AuthFormContainer = React.memo(({ children, authError, appIdForPaths, syst
         <div className="bg-white p-8 sm:p-10 md:p-12 rounded-xl shadow-2xl w-full max-w-md transform transition-all duration-500 ease-out animate-fadeInUp">
           <div className="text-center mb-8">
             <h1 className="text-5xl font-bold text-blue-600 tracking-tight">AGOS</h1>
-            <p className="text-sm text-gray-500 mt-1 italic">Ensuring Clarity, Sustaining Life.</p>
+            <p className="text-sm text-gray-500 mt-1 italic">Alay Ginhawa, Oras-oras na Serbisyo.</p>
           </div>
 
           {authError && (

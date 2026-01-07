@@ -296,7 +296,7 @@ const InvoiceView = ({
                         <header className="invoice-header-print mb-4 flex justify-between items-start">
                             <div>
                                 <h1 className="logo-print text-4xl font-bold text-blue-700">AGOS</h1>
-                                <p className="tagline-print text-sm text-blue-600 italic -mt-1">Ensuring Clarity, Sustaining Life.</p>
+                                <p className="tagline-print text-sm text-blue-600 italic -mt-1">Alay Ginhawa, Oras-oras na Serbisyo.</p>
                             </div>
                             <div className="company-address-print text-right text-xs">
                                 <strong>AGOS Water Services, Inc.</strong><br/>

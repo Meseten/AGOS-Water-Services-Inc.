@@ -287,7 +287,7 @@ const ClerkDashboardMain = ({ userData, showNotification, setActiveSection, db }
                     <div className="report-header">
                         <div>
                             <h1 className="logo-print">AGOS</h1>
-                            <p className="tagline-print">Ensuring Clarity, Sustaining Life.</p>
+                            <p className="tagline-print">Alay Ginhawa, Oras-oras na Serbisyo.</p>
                         </div>
                         <div className="company-address-print">
                             <strong>AGOS Water Services, Inc.</strong><br/>

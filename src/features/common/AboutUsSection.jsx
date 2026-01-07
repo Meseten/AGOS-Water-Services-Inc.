@@ -98,7 +98,7 @@ const AboutUsSection = () => {
             </div>
 
             <p className="pt-8 mt-8 text-gray-800 font-medium text-center text-lg border-t border-gray-200">
-                AGOS Water Services, Inc. – Ensuring Clarity, Sustaining Life.
+                AGOS Water Services, Inc. – Alay Ginhawa, Oras-oras na Serbisyo.
             </p>
         </div>
     );

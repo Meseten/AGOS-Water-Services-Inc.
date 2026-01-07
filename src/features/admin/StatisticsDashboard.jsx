@@ -378,7 +378,7 @@ const StatisticsDashboard = ({ showNotification = console.log }) => {
                     <header class="report-header">
                         <div>
                             <h1 class="logo-print">AGOS</h1>
-                            <p class="tagline-print">Ensuring Clarity, Sustaining Life.</p>
+                            <p class="tagline-print">Alay Ginhawa, Oras-oras na Serbisyo.</p>
                         </div>
                         <div class="company-address-print">
                             <strong>AGOS Water Services, Inc.</strong><br/>

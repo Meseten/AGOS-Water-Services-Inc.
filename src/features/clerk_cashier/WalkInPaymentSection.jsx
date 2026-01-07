@@ -310,7 +310,7 @@ const WalkInPaymentSection = ({ db, userData: clerkData, showNotification, billi
                         <div className="flex justify-between items-start mb-5 pb-4 border-b-2 border-blue-700">
                             <div>
                                 <div className="text-3xl font-bold text-blue-700">AGOS</div>
-                                <div className="text-xs text-blue-600 italic">Ensuring Clarity, Sustaining Life.</div>
+                                <div className="text-xs text-blue-600 italic">Alay Ginhawa, Oras-oras na Serbisyo.</div>
                             </div>
                             <div className="text-right text-xs">
                                 <p className="font-semibold">AGOS Water Services, Inc.</p>
