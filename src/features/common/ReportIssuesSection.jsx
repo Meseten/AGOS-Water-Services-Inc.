@@ -130,7 +130,7 @@ const ReportIssueSection = ({ user, userData, db, auth, showNotification }) => {
         }
         setIsAiAssisting(true);
         try {
-            const prompt = `You are helping a user report an issue to AGWA Water Services. Elaborate on the following user-provided details to create a clear, detailed, and formal issue description. Be polite and include any relevant questions the user might need to answer. Do not add any extra commentary, just provide the refined description.\n\nUser's input: "${values.description}"`;
+            const prompt = `You are helping a user report an issue to AGOS Water Services. Elaborate on the following user-provided details to create a clear, detailed, and formal issue description. Be polite and include any relevant questions the user might need to answer. Do not add any extra commentary, just provide the refined description.\n\nUser's input: "${values.description}"`;
             
             const messages = [{ role: 'user', content: prompt }];
             const assistedDescription = await callDeepseekAPI(messages);

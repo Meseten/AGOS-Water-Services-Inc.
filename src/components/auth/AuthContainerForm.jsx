@@ -16,7 +16,7 @@ const AuthFormContainer = React.memo(({ children, authError, appIdForPaths, syst
       <div className="min-h-screen bg-gradient-to-br from-blue-700 to-indigo-800 flex flex-col justify-center items-center p-4 font-sans selection:bg-blue-300 selection:text-blue-900">
         <div className="bg-white p-8 sm:p-10 md:p-12 rounded-xl shadow-2xl w-full max-w-md transform transition-all duration-500 ease-out animate-fadeInUp">
           <div className="text-center mb-8">
-            <h1 className="text-5xl font-bold text-blue-600 tracking-tight">AGWA</h1>
+            <h1 className="text-5xl font-bold text-blue-600 tracking-tight">AGOS</h1>
             <p className="text-sm text-gray-500 mt-1 italic">Ensuring Clarity, Sustaining Life.</p>
           </div>
 
@@ -46,7 +46,7 @@ const AuthFormContainer = React.memo(({ children, authError, appIdForPaths, syst
             </p>
         )}
         <p className="text-center text-xs text-blue-300 mt-2">
-          &copy; {new Date().getFullYear()} AGWA Water Services, Inc.
+          &copy; {new Date().getFullYear()} AGOS Water Services, Inc.
         </p>
 
         <div id="recaptcha-container" className="my-2 mx-auto"></div>

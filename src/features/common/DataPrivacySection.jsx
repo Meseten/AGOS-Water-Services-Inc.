@@ -16,7 +16,7 @@ const DataPrivacySection = () => {
             <div className="prose prose-sm max-w-none">
                 <h4>Our Commitment to Privacy</h4>
                 <p>
-                    AGWA Water Services, Inc. ("AGWA", "we", "us", "our") is committed to protecting your privacy in compliance with
+                    AGOS Water Services, Inc. ("AGOS", "we", "us", "our") is committed to protecting your privacy in compliance with
                     Republic Act No. 10173, the Data Privacy Act of 2012 (DPA), its Implementing Rules
                     and Regulations (IRR), and other relevant data privacy and protection laws.
                 </p>
@@ -35,7 +35,7 @@ const DataPrivacySection = () => {
                         <strong>Personal Identification Data:</strong> Full name, email address, phone number, and service address.
                     </li>
                     <li>
-                        <strong>Account and Service Data:</strong> AGWA Account Number, meter serial number, service type,
+                        <strong>Account and Service Data:</strong> AGOS Account Number, meter serial number, service type,
                         account status, and account creation date.
                     </li>
                     <li>
@@ -56,12 +56,12 @@ const DataPrivacySection = () => {
                 <h4>2. How We Use Your Information</h4>
                 <p>Your personal data is used for the following legitimate business purposes:</p>
                 <ul>
-                    <li>To create, maintain, and secure your AGWA Portal account.</li>
+                    <li>To create, maintain, and secure your AGOS Portal account.</li>
                     <li>To provide and manage your water services, including meter reading, billing, and maintenance.</li>
                     <li>To process your bill payments (including card, e-wallet, and rebate point transactions) and manage your account.</li>
                     <li>To respond to your inquiries, concerns, and support tickets, and to provide customer support.</li>
                     <li>To send you essential service advisories, billing reminders, and other system notifications.</li>
-                    <li>To manage your participation in programs such as the AGWA Rewards Program.</li>
+                    <li>To manage your participation in programs such as the AGOS Rewards Program.</li>
                     <li>To analyze portal and service usage to improve our operations, services, and user experience.</li>
                     <li>To investigate and prevent fraud, security incidents, or other illegal activities.</li>
                     <li>To comply with our legal and regulatory obligations as a public utility.</li>
@@ -120,9 +120,9 @@ const DataPrivacySection = () => {
                     please contact our Data Privacy Officer at:
                 </p>
                 <p>
-                    <strong>Email:</strong> <a href="mailto:dpo@agwa.ph">dpo@agwa.ph</a><br/>
+                    <strong>Email:</strong> <a href="mailto:dpo@agos.ph">dpo@agos.ph</a><br/>
                     <strong>Email:</strong> <a href="mailto:benjamesduag.edu@gmail.com">benjamesduag.edu@gmail.com</a><br/>
-                    <strong>Address:</strong> Attn: Data Privacy Officer, AGWA Water Services Bldg., Governor's Drive, Brgy. Ibayo Silangan, Naic, Cavite 4110
+                    <strong>Address:</strong> Attn: Data Privacy Officer, AGOS Water Services Bldg., Governor's Drive, Brgy. Ibayo Silangan, Naic, Cavite 4110
                 </p>
 
                 <h4>7. Changes to This Notice</h4>

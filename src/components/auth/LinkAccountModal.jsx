@@ -24,13 +24,13 @@ const LinkAccountModal = ({ isOpen, onLink, isLinking, error, onLogout }) => {
         <Modal
             isOpen={isOpen}
             onClose={() => {}}
-            title="Link Your AGWA Account"
+            title="Link Your AGOS Account"
             hideCloseButton={true}
             size="md"
         >
             <form onSubmit={handleSubmit} className="space-y-5">
                 <p className="text-sm text-center text-gray-600">
-                    To access services, please link your official AGWA account number.
+                    To access services, please link your official AGOS account number.
                     This is a one-time step for accounts created with Google or an Email Link.
                 </p>
 
@@ -44,13 +44,13 @@ const LinkAccountModal = ({ isOpen, onLink, isLinking, error, onLogout }) => {
                     <Hash className="absolute left-3.5 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                     <input
                         type="text"
-                        placeholder="AGWA Account Number (e.g., RES-12345)"
+                        placeholder="AGOS Account Number (e.g., RES-12345)"
                         value={accountNumber}
                         onChange={(e) => setAccountNumber(e.target.value)}
                         className={`${commonInputClass} pl-11`}
                         required
                         disabled={isLinking}
-                        aria-label="AGWA Account Number"
+                        aria-label="AGOS Account Number"
                         autoFocus
                     />
                 </div>

@@ -13,7 +13,7 @@ const ChatbotModal = ({
 }) => {
     const initialMessage = {
         role: 'assistant',
-        text: `Hello, ${userData?.displayName || 'Valued Customer'}! I am Agie, your AGWA Water Services virtual assistant. How can I help you today with your account (${userData?.accountNumber || 'N/A'}) or other water service inquiries?`
+        text: `Hello, ${userData?.displayName || 'Valued Customer'}! I am Agie, your AGOS Water Services virtual assistant. How can I help you today with your account (${userData?.accountNumber || 'N/A'}) or other water service inquiries?`
     };
     const [chatHistory, setChatHistory] = useState([initialMessage]);
     const [userInput, setUserInput] = useState('');
@@ -54,7 +54,7 @@ const ChatbotModal = ({
         setError('');
 
         try {
-            const systemPrompt = `You are Agie, the friendly and professional AI assistant for AGWA Water Services, a major water utility provider in the Philippines.
+            const systemPrompt = `You are Agie, the friendly and professional AI assistant for AGOS Water Services, a major water utility provider in the Philippines.
 Current Customer Details:
 - Name: ${userData.displayName || 'Valued Customer'}
 - Account Number: ${userData.accountNumber || 'Not available'}
@@ -120,7 +120,7 @@ Respond to the customer's latest message based on the conversation history.`;
 
 
     return (
-        <Modal isOpen={isOpen} onClose={onClose} title="Chat with Agie - Your AGWA Assistant" size="lg">
+        <Modal isOpen={isOpen} onClose={onClose} title="Chat with Agie - Your AGOS Assistant" size="lg">
             <style>{`
                 .animate-message-appear {
                     animation: message-appear 0.3s ease-out forwards;

@@ -42,8 +42,8 @@ const ContactUsSection = ({ systemSettings = {} }) => {
     const [showPrivacy, setShowPrivacy] = useState(false);
 
     const { 
-        supportHotline = "1627-AGWA (24/7 Emergency)",
-        supportEmail = "support@agwa.ph"
+        supportHotline = "1627-AGOS (24/7 Emergency)",
+        supportEmail = "support@agos.ph"
     } = systemSettings;
 
     const contactDetails = [
@@ -73,9 +73,9 @@ const ContactUsSection = ({ systemSettings = {} }) => {
 
     const officeInfo = {
         icon: Building2,
-        title: "AGWA Head Office",
+        title: "AGOS Head Office",
         addressLines: [
-            "AGWA Water Services Bldg.",
+            "AGOS Water Services Bldg.",
             "Governor's Drive, Brgy. Ibayo Silangan",
             "Naic, Cavite, Philippines 4110"
         ],
@@ -87,9 +87,9 @@ const ContactUsSection = ({ systemSettings = {} }) => {
     };
 
     const socialMediaLinks = [
-        { type: 'Facebook', href: 'https://facebook.com/AGWAwaterservices' },
-        { type: 'X', href: 'https://x.com/AGWAwaterserv' },
-        { type: 'Instagram', href: 'https://instagram.com/AGWAwater' }
+        { type: 'Facebook', href: 'https://facebook.com/AG0Swaterservices' },
+        { type: 'X', href: 'https://x.com/AGOSwaterserv' },
+        { type: 'Instagram', href: 'https://instagram.com/AGOSwater' }
     ];
 
     return (
@@ -97,7 +97,7 @@ const ContactUsSection = ({ systemSettings = {} }) => {
             <div className="flex flex-col sm:flex-row justify-between items-center mb-6 pb-4 border-b border-gray-200">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 flex items-center">
                     <MessageSquare size={30} className="mr-3 text-blue-600" />
-                    Get In Touch With AGWA
+                    Get In Touch With AGOS
                 </h2>
             </div>
 
@@ -183,7 +183,7 @@ const ContactUsSection = ({ systemSettings = {} }) => {
                     </button>.
                 </p>
                 <p className="text-center text-xs text-gray-400 mt-4">
-                    © {new Date().getFullYear()} AGWA Water Services, Inc. All Rights Reserved.
+                    © {new Date().getFullYear()} AGOS Water Services, Inc. All Rights Reserved.
                 </p>
             </div>
 

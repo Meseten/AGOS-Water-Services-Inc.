@@ -255,7 +255,7 @@ const StatisticsDashboard = ({ showNotification = console.log }) => {
 
     const generateExecutiveSummary = async (statsSummary) => {
         const prompt = `
-            You are 'Agie', an AI analyst for AGWA Water Services. The currency is **Philippine Pesos (PHP)**.
+            You are 'Agie', an AI analyst for AGOS Water Services. The currency is **Philippine Pesos (PHP)**.
             Analyze the following JSON data and generate a professional, high-level "Executive Summary" narrative for a printed report.
             - Start with "<h3 class='print-section-title'>Executive Summary</h3>".
             - Use simple HTML for formatting: <p>, <strong>, <ul>, <li>.
@@ -377,12 +377,12 @@ const StatisticsDashboard = ({ showNotification = console.log }) => {
                 <div class="printable-area p-8">
                     <header class="report-header">
                         <div>
-                            <h1 class="logo-print">AGWA</h1>
+                            <h1 class="logo-print">AGOS</h1>
                             <p class="tagline-print">Ensuring Clarity, Sustaining Life.</p>
                         </div>
                         <div class="company-address-print">
-                            <strong>AGWA Water Services, Inc.</strong><br/>
-                            AGWA Water Services Bldg., Governor's Drive<br/>
+                            <strong>AGOS Water Services, Inc.</strong><br/>
+                            AGOS Water Services Bldg., Governor's Drive<br/>
                             Brgy. Ibayo Silangan, Naic, Cavite 4110
                         </div>
                     </header>

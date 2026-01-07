@@ -23,7 +23,7 @@ const SignupForm = ({
         e.preventDefault();
         setAuthError(""); // Clear previous errors
         if (!displayName.trim()) { setAuthError("Full Name is required."); showNotification("Full Name is required.", "warning"); return; }
-        if (!accountNumber.trim()) { setAuthError("AGWA Account Number is required (e.g., RES-12345, ADM-001)."); showNotification("AGWA Account Number is required.", "warning"); return; }
+        if (!accountNumber.trim()) { setAuthError("AGOS Account Number is required (e.g., RES-12345, COM-001)."); showNotification("AGOS Account Number is required.", "warning"); return; }
         if (password.length < 6) { setAuthError("Password must be at least 6 characters long."); showNotification("Password too short (min. 6 chars).", "warning"); return; }
         if (password !== confirmPassword) { setAuthError("Passwords do not match."); showNotification("Passwords don't match.", "warning"); return; }
         await handleSignupExternal(email, password, displayName, accountNumber);
@@ -43,7 +43,7 @@ const SignupForm = ({
             </div>
             <div className="relative">
                 <Hash className="absolute left-3.5 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                <input type="text" placeholder="AGWA Account Number (e.g., RES-12345) *" value={accountNumber} onChange={(e) => setAccountNumber(e.target.value)} className={`${commonInputClass} pl-11`} required disabled={authActionLoading} aria-label="AGWA Account Number"/>
+                <input type="text" placeholder="AGOS Account Number (e.g., RES-12345) *" value={accountNumber} onChange={(e) => setAccountNumber(e.target.value)} className={`${commonInputClass} pl-11`} required disabled={authActionLoading} aria-label="AGOS Account Number"/>
             </div>
             <div className="relative">
                 <Mail className="absolute left-3.5 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />

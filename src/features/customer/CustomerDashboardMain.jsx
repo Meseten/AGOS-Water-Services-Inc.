@@ -87,7 +87,7 @@ const CustomerDashboardMain = ({ user, userData, db, showNotification, setActive
                 : 'for a household';
             
             const prompt = `
-                You are Agie, a professional and helpful AI assistant for AGWA Water Services.
+                You are Agie, a professional and helpful AI assistant for AGOS Water Services.
                 Please provide 8 practical water-saving tips and 2 surprising water trivia facts for a customer in the Philippines.
                 
                 Instructions:

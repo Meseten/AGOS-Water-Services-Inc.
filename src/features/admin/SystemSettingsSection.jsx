@@ -32,7 +32,7 @@ const SettingRow = ({ field, settings, handleChange }) => {
 
 const SystemSettingsSection = ({ showNotification = console.log }) => {
     const [settings, setSettings] = useState({
-        portalName: 'AGWA Water Services, Inc.',
+        portalName: 'AGOS Water Services, Inc.',
         portalAnnouncement: '',
         isBannerEnabled: false,
         maintenanceMode: false,
@@ -67,11 +67,11 @@ const SystemSettingsSection = ({ showNotification = console.log }) => {
         earlyPaymentBonusPoints: 10,
         earlyPaymentDaysThreshold: 7,
         
-        supportHotline: "1627-AGWA (24/7)",
-        supportEmail: "support@agwa-waterservices.com.ph",
-        adminEmailForNotifications: "admin@agwa.ph",
+        supportHotline: "1627-AGOS (24/7)",
+        supportEmail: "support@agos-waterservices.com.ph",
+        adminEmailForNotifications: "admin@agos.ph",
         autoCloseTicketsDays: 14,
-        defaultInterruptionMsg: 'AGWA is conducting emergency maintenance. Water service may be temporarily unavailable in your area.',
+        defaultInterruptionMsg: 'AGOS is conducting emergency maintenance. Water service may be temporarily unavailable in your area.',
         readingReminderDaysBefore: 3,
     });
 
@@ -190,7 +190,7 @@ const SystemSettingsSection = ({ showNotification = console.log }) => {
     };
 
     const generalSettings = [
-        { name: 'portalName', label: 'Portal Name', type: 'text', icon: Briefcase, placeholder: 'AGWA Water Services, Inc.' },
+        { name: 'portalName', label: 'Portal Name', type: 'text', icon: Briefcase, placeholder: 'AGOS Water Services, Inc.' },
         { name: 'sessionTimeoutMinutes', label: 'Session Timeout (Minutes)', type: 'number', icon: Clock, step: "1", placeholder: "60" },
         { name: 'maintenanceMode', label: 'Enable Portal Maintenance Mode', type: 'checkbox', icon: AlertTriangle, description: "If enabled, only Admins can log in." },
         { name: 'portalAnnouncement', label: 'Portal-Wide Announcement Banner Text', type: 'textarea', icon: Megaphone, rows: 2 },
@@ -235,7 +235,7 @@ const SystemSettingsSection = ({ showNotification = console.log }) => {
     ];
 
     const communicationSettings = [
-        { name: 'supportHotline', label: 'Support Hotline Number', type: 'text', icon: Phone, placeholder: 'e.g., 1627-AGWA' },
+        { name: 'supportHotline', label: 'Support Hotline Number', type: 'text', icon: Phone, placeholder: 'e.g., 1627-AGOS' },
         { name: 'supportEmail', label: 'Support Email Address', type: 'email', icon: AtSign, placeholder: 'e.g., support@agos.com' },
         { name: 'adminEmailForNotifications', label: 'Admin Email (for system alerts)', type: 'email', icon: AtSign, placeholder: 'e.g., admin@agos.com' },
         { name: 'autoCloseTicketsDays', label: 'Auto-close Resolved Tickets After (Days)', type: 'number', icon: Clock, step: "1", placeholder: "14" },

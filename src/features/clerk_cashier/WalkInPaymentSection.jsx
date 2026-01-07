@@ -178,7 +178,7 @@ const WalkInPaymentSection = ({ db, userData: clerkData, showNotification, billi
         const printableContent = document.getElementById('payment-receipt-content');
         if (printableContent) {
             const printWindow = window.open('', '_blank', 'height=800,width=1000');
-            printWindow.document.write('<html><head><title>AGWA Payment Receipt</title>');
+            printWindow.document.write('<html><head><title>AGOS Payment Receipt</title>');
             printWindow.document.write('<script src="https://cdn.tailwindcss.com"></script>');
             printWindow.document.write(`
                 <style>
@@ -309,12 +309,12 @@ const WalkInPaymentSection = ({ db, userData: clerkData, showNotification, billi
                         <div className="paid-stamp">PAID</div>
                         <div className="flex justify-between items-start mb-5 pb-4 border-b-2 border-blue-700">
                             <div>
-                                <div className="text-3xl font-bold text-blue-700">AGWA</div>
+                                <div className="text-3xl font-bold text-blue-700">AGOS</div>
                                 <div className="text-xs text-blue-600 italic">Ensuring Clarity, Sustaining Life.</div>
                             </div>
                             <div className="text-right text-xs">
-                                <p className="font-semibold">AGWA Water Services, Inc.</p>
-                                <p>AGWA Water Services Bldg., Governor's Drive</p>
+                                <p className="font-semibold">AGOS Water Services, Inc.</p>
+                                <p>AGOS Water Services Bldg., Governor's Drive</p>
                                 <p>Brgy. Ibayo Silangan, Naic, Cavite 4110</p>
                             </div>
                         </div>

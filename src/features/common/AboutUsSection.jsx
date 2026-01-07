@@ -25,7 +25,7 @@ const AboutUsSection = () => {
             <div className="flex flex-col sm:flex-row justify-between items-center mb-6 pb-4 border-b border-gray-200">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 flex items-center">
                     <Info size={30} className="mr-3 text-blue-600" />
-                    About AGWA Water Services, Inc.
+                    About AGOS Water Services, Inc.
                 </h2>
             </div>
 
@@ -34,7 +34,7 @@ const AboutUsSection = () => {
                     <Building2 size={22} className="mr-2.5 text-blue-600/80" /> Our Genesis & Enduring Commitment
                 </h3>
                 <p>
-                    AGWA Water Services, Inc. was established in 2005 with a singular, profound vision: to ensure every Filipino has access to clean, safe, and sustainable water. Recognizing water as the cornerstone of life, health, and economic progress, AGWA embarked on a mission to become a leading force in the Philippine water utility sector. From humble beginnings, we have grown through unwavering dedication, strategic investments in infrastructure and technology, and a deep-rooted commitment to the communities we are privileged to serve. Our journey has been one of continuous learning, adaptation, and an ever-stronger resolve to meet the evolving water needs of a dynamic nation.
+                    AGOS Water Services, Inc. was established in 2005 with a singular, profound vision: to ensure every Filipino has access to clean, safe, and sustainable water. Recognizing water as the cornerstone of life, health, and economic progress, AGOS embarked on a mission to become a leading force in the Philippine water utility sector. From humble beginnings, we have grown through unwavering dedication, strategic investments in infrastructure and technology, and a deep-rooted commitment to the communities we are privileged to serve. Our journey has been one of continuous learning, adaptation, and an ever-stronger resolve to meet the evolving water needs of a dynamic nation.
                 </p>
             </section>
 
@@ -43,7 +43,7 @@ const AboutUsSection = () => {
                      <Sparkles size={22} className="mr-2.5 text-blue-600/80" /> Operational Excellence & Innovation
                 </h3>
                 <p>
-                    At the heart of AGWA lies a relentless pursuit of excellence. We employ state-of-the-art water sourcing techniques, advanced multi-stage treatment processes, and smart distribution networks, all managed by a team of highly skilled engineers, certified technicians, and dedicated customer service professionals. Our operations strictly adhere to, and often exceed, national and international quality standards (PNSDW, WHO guidelines), ensuring that the water reaching your taps is not just potable but of the highest purity and reliability. We continuously invest in research and development to innovate and improve our services, from leak detection technologies and pressure management systems to digital customer interfaces and data-driven resource planning.
+                    At the heart of AGOS lies a relentless pursuit of excellence. We employ state-of-the-art water sourcing techniques, advanced multi-stage treatment processes, and smart distribution networks, all managed by a team of highly skilled engineers, certified technicians, and dedicated customer service professionals. Our operations strictly adhere to, and often exceed, national and international quality standards (PNSDW, WHO guidelines), ensuring that the water reaching your taps is not just potable but of the highest purity and reliability. We continuously invest in research and development to innovate and improve our services, from leak detection technologies and pressure management systems to digital customer interfaces and data-driven resource planning.
                 </p>
             </section>
 
@@ -52,7 +52,7 @@ const AboutUsSection = () => {
                     <Gauge size={22} className="mr-2.5 text-blue-600/80" /> Sustainability and Environmental Stewardship: Our Pledge
                 </h3>
                 <p>
-                    AGWA is profoundly aware of its responsibility as a steward of one of Earth's most precious resources. Sustainability is not just a buzzword for us; it's integrated into every facet of our operations. This includes responsible water abstraction from diverse sources, active participation in watershed protection and reforestation programs, and the implementation of advanced wastewater treatment and water recycling initiatives to minimize our environmental footprint. We actively promote water conservation education among our consumers and invest in projects that enhance climate resilience and mitigate environmental impact, ensuring that future generations can also enjoy the gift of clean water.
+                    AGOS is profoundly aware of its responsibility as a steward of one of Earth's most precious resources. Sustainability is not just a buzzword for us; it's integrated into every facet of our operations. This includes responsible water abstraction from diverse sources, active participation in watershed protection and reforestation programs, and the implementation of advanced wastewater treatment and water recycling initiatives to minimize our environmental footprint. We actively promote water conservation education among our consumers and invest in projects that enhance climate resilience and mitigate environmental impact, ensuring that future generations can also enjoy the gift of clean water.
                 </p>
             </section>
 
@@ -79,7 +79,7 @@ const AboutUsSection = () => {
             </div>
 
             <div className="my-12 pt-8 border-t border-gray-200">
-                <h3 className="text-2xl font-bold text-blue-700 mb-8 text-center">Our Core Values: The AGWA C.R.E.S.T.</h3>
+                <h3 className="text-2xl font-bold text-blue-700 mb-8 text-center">Our Core Values: The AGOS C.R.E.S.T.</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
                     {crestItems.map(value => {
                         const ValueIcon = value.icon;
@@ -98,7 +98,7 @@ const AboutUsSection = () => {
             </div>
 
             <p className="pt-8 mt-8 text-gray-800 font-medium text-center text-lg border-t border-gray-200">
-                AGWA Water Services, Inc. – Ensuring Clarity, Sustaining Life.
+                AGOS Water Services, Inc. – Ensuring Clarity, Sustaining Life.
             </p>
         </div>
     );

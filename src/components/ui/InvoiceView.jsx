@@ -60,7 +60,7 @@ const InvoiceView = ({
 
     const billDateObj = bill.billDate?.toDate ? bill.billDate.toDate() : null;
     const formattedDateForInvoiceNum = billDateObj ? `${billDateObj.getFullYear()}${String(billDateObj.getMonth() + 1).padStart(2, '0')}${String(billDateObj.getDate()).padStart(2, '0')}` : Date.now().toString().slice(-6);
-    const invoiceNumber = bill.invoiceNumber || `AGWA-${bill.id?.slice(0,4).toUpperCase()}-${formattedDateForInvoiceNum}`;
+    const invoiceNumber = bill.invoiceNumber || `AGOS-${bill.id?.slice(0,4).toUpperCase()}-${formattedDateForInvoiceNum}`;
 
     const formatAddressToString = (addressObj) => {
         if (!addressObj || typeof addressObj !== 'object') return addressObj || '';
@@ -80,7 +80,7 @@ const InvoiceView = ({
         }
 
         const printWindow = window.open('', '_blank', 'height=800,width=1000,scrollbars=yes');
-        printWindow.document.write('<html><head><title>AGWA Invoice ' + invoiceNumber + '</title>');
+        printWindow.document.write('<html><head><title>AGOS Invoice ' + invoiceNumber + '</title>');
         
         printWindow.document.write('<script src="https://cdn.tailwindcss.com"></script>');
         
@@ -130,7 +130,7 @@ const InvoiceView = ({
                 </div>
                  <div className="text-right flex-shrink-0">
                     <div className="flex justify-end mb-2">
-                         <div className="text-2xl font-bold text-blue-700 logo-print">AGWA</div>
+                         <div className="text-2xl font-bold text-blue-700 logo-print">AGOS</div>
                     </div>
                     <p>INVOICE No.: <span className="font-semibold">{invoiceNumber}</span></p>
                     <p>Billing Period: <span className="font-semibold">{bill.billingPeriod || bill.monthYear}</span></p>
@@ -295,12 +295,12 @@ const InvoiceView = ({
                     <div className="relative z-0">
                         <header className="invoice-header-print mb-4 flex justify-between items-start">
                             <div>
-                                <h1 className="logo-print text-4xl font-bold text-blue-700">AGWA</h1>
+                                <h1 className="logo-print text-4xl font-bold text-blue-700">AGOS</h1>
                                 <p className="tagline-print text-sm text-blue-600 italic -mt-1">Ensuring Clarity, Sustaining Life.</p>
                             </div>
                             <div className="company-address-print text-right text-xs">
-                                <strong>AGWA Water Services, Inc.</strong><br/>
-                                AGWA Water Services Bldg., Governor's Drive<br/>
+                                <strong>AGOS Water Services, Inc.</strong><br/>
+                                AGOS Water Services Bldg., Governor's Drive<br/>
                                 Brgy. Ibayo Silangan, Naic, Cavite 4110
                             </div>
                         </header>
@@ -385,7 +385,7 @@ const InvoiceView = ({
 
                                 <div className="invoice-section-print h-line text-center">
                                     <h2 className="font-bold text-xs border-b border-black pb-1 mb-1 uppercase">Important Reminders</h2>
-                                    <p className="text-xs">CUSTOMER SERVICE HOTLINE: 1627-AGWA</p>
+                                    <p className="text-xs">CUSTOMER SERVICE HOTLINE: 1627-AGOS</p>
                                     <hr className="border-t border-gray-400 my-1" />
                                     <p className="text-xs">PLEASE PAY VIA GCASH OR THROUGH OTHER ACCREDITED PAYMENT CENTERS. METER READERS AND CONTRACTORS ARE NOT ALLOWED TO ACCEPT PAYMENTS.</p>
                                 </div>

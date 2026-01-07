@@ -84,7 +84,7 @@ const AnnouncementForm = ({ initialData = null, onSubmit, onCancel, isSaving, sh
         } else if (plainTextContent) {
             setIsAiGenerating(true);
             try {
-                const prompt = `Refine this announcement draft for AGWA Water Services. Make it clear, professional, concise, using simple HTML (<p>, <strong>, <ul>, <li>). Announcement Type: ${type}. Title: "${title}". Original Content (may contain HTML): "${content}". Respond only with the refined HTML content.`;
+                const prompt = `Refine this announcement draft for AGOS Water Services. Make it clear, professional, concise, using simple HTML (<p>, <strong>, <ul>, <li>). Announcement Type: ${type}. Title: "${title}". Original Content (may contain HTML): "${content}". Respond only with the refined HTML content.`;
                 
                 const messages = [{ role: 'user', content: prompt }];
                 const assistedContent = await callDeepseekAPI(messages);

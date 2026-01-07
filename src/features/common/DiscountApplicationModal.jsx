@@ -20,7 +20,7 @@ const DiscountApplicationModal = ({ isOpen, onClose, onSubmit, isSaving }) => {
                         Email a clear photo of your valid Senior Citizen or PWD ID to our verification team.
                     </p>
                     <ul className="text-sm space-y-1 mb-3">
-                        <li><strong>To:</strong> <a href="mailto:admin@agwa.ph" className="text-blue-600 hover:underline">admin@agwa.ph</a></li>
+                        <li><strong>To:</strong> <a href="mailto:admin@agos.ph" className="text-blue-600 hover:underline">admin@agos.ph</a></li>
                         <li><strong>Cc:</strong> <a href="mailto:benjamesduag.edu@gmail.com" className="text-blue-600 hover:underline">benjamesduag.edu@gmail.com</a></li>
                         <li><strong>Subject:</strong> Discount Application - {`{Your Account Number}`}</li>
                     </ul>
@@ -35,7 +35,7 @@ const DiscountApplicationModal = ({ isOpen, onClose, onSubmit, isSaving }) => {
                         Option 2: In-Person Verification
                     </h3>
                     <p className="text-sm text-gray-600">
-                        Visit any AGWA business office and present your valid ID to a customer service representative.
+                        Visit any AGOS business office and present your valid ID to a customer service representative.
                         Your account will be updated on the spot.
                     </p>
                 </div>

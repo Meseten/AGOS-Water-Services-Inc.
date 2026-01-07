@@ -286,12 +286,12 @@ const ClerkDashboardMain = ({ userData, showNotification, setActiveSection, db }
                 <div id="eod-report-content" className="bg-white p-6 sm:p-10 rounded-lg border border-gray-200 text-gray-800 text-[10pt] leading-normal printable-area">
                     <div className="report-header">
                         <div>
-                            <h1 className="logo-print">AGWA</h1>
+                            <h1 className="logo-print">AGOS</h1>
                             <p className="tagline-print">Ensuring Clarity, Sustaining Life.</p>
                         </div>
                         <div className="company-address-print">
-                            <strong>AGWA Water Services, Inc.</strong><br/>
-                            AGWA Water Services Bldg., Governor's Drive<br/>
+                            <strong>AGOS Water Services, Inc.</strong><br/>
+                            AGOS Water Services Bldg., Governor's Drive<br/>
                             Brgy. Ibayo Silangan, Naic, Cavite 4110
                         </div>
                     </div>

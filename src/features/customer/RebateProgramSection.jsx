@@ -48,7 +48,7 @@ const RebateProgramSection = ({ userData, systemSettings = {} }) => {
         <div className="p-4 sm:p-6 bg-white rounded-xl shadow-xl animate-fadeIn">
             <div className="flex flex-col sm:flex-row justify-between items-center mb-6 pb-4 border-b border-gray-200">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 flex items-center">
-                    <Gift size={30} className="mr-3 text-amber-500" /> AGWA Rewards Program
+                    <Gift size={30} className="mr-3 text-amber-500" /> AGOS Rewards Program
                 </h2>
             </div>
 
@@ -93,7 +93,7 @@ const RebateProgramSection = ({ userData, systemSettings = {} }) => {
                     <HelpCircle size={20} className="mr-2"/> How to Earn & Use Points (Mechanics)
                 </h3>
                 {!isRebateProgramEnabled ? (
-                    <p className="text-sm text-gray-700">The AGWA Rewards Program is not currently active.</p>
+                    <p className="text-sm text-gray-700">The AGOS Rewards Program is not currently active.</p>
                 ) : (
                     <div className="space-y-3 text-sm text-gray-700">
                         <p>Earning and using points is simple:</p>
@@ -126,8 +126,8 @@ const RebateProgramSection = ({ userData, systemSettings = {} }) => {
                         <span className="transition-transform duration-200 group-open:rotate-180">▼</span>
                     </summary>
                     <div className="mt-2 space-y-1.5 max-h-0 overflow-hidden group-open:max-h-[500px] transition-all duration-500 ease-in-out pt-2 border-t">
-                        <p><strong>1. Eligibility:</strong> All AGWA Water Services, Inc. customers with an active residential or commercial account in good standing are eligible to participate in the AGWA Rewards Program ("Program").</p>
-                        <p><strong>2. Earning Points:</strong> Points are earned based on (a) the total amount paid for water bills and (b) bonuses for early payments, as specified in the "How to Earn Points" section. Earning rates are determined by AGWA and may be subject to change based on system settings.</p>
+                        <p><strong>1. Eligibility:</strong> All AGOS Water Services, Inc. customers with an active residential or commercial account in good standing are eligible to participate in the AGOS Rewards Program ("Program").</p>
+                        <p><strong>2. Earning Points:</strong> Points are earned based on (a) the total amount paid for water bills and (b) bonuses for early payments, as specified in the "How to Earn Points" section. Earning rates are determined by AGOS and may be subject to change based on system settings.</p>
                         <p><strong>3. Point Crediting:</strong> Points will be credited to the customer's account after a payment is successfully processed and posted. This may take up to 48 hours. Points are not earned on payments made using Rebate Points.</p>
                         <p><strong>4. Redeeming Points:</strong> Points may be redeemed as full payment for an outstanding water bill ("Bill"), subject to the following conditions:
                             (a) The customer must have sufficient points to cover the *entire* amount of the Bill. (Redemption Rate: 1 Point = 1 Philippine Peso).
@@ -135,13 +135,13 @@ const RebateProgramSection = ({ userData, systemSettings = {} }) => {
                             (c) If sufficient points are available, a "Pay with Points" option will be automatically presented in the Portal.
                             (d) Point redemption is final and irreversible.
                         </p>
-                        <p><strong>5. Tiers and Benefits:</strong> Tier status (Bronze, Silver, Gold, Platinum) is determined by the total accumulated points. Benefits are associated with each tier and are non-transferable. AGWA reserves the right to modify, add, or remove benefits at any time.</p>
+                        <p><strong>5. Tiers and Benefits:</strong> Tier status (Bronze, Silver, Gold, Platinum) is determined by the total accumulated points. Benefits are associated with each tier and are non-transferable. AGOS reserves the right to modify, add, or remove benefits at any time.</p>
                         <p><strong>6. Annual Bill Rebate:</strong> Rebates mentioned in tier benefits (e.g., "Eligibility for 1% Annual Bill Rebate") are not automatic. To qualify, a customer must maintain their tier status (Silver or higher) and remain in good standing (no service disconnections due to non-payment) for 12 consecutive months. The rebate is calculated on the total basic charges paid within that 12-month period and will be applied as a credit to a future bill, not as a cash payout.</p>
-                        <p><strong>7. Point Expiration:</strong> Points do not expire. Points will remain valid as long as the customer's account with AGWA remains active.</p>
+                        <p><strong>7. Point Expiration:</strong> Points do not expire. Points will remain valid as long as the customer's account with AGOS remains active.</p>
                         <p><strong>8. No Cash Value:</strong> Points have no cash value, are non-transferable, and cannot be sold, bartered, or redeemed for cash.</p>
-                        <p><strong>9. Program Modification/Termination:</strong> AGWA Water Services, Inc. reserves the right to modify, suspend, or terminate the AGWA Rewards Program, its rules, tiers, benefits, or earning/redemption mechanics at any time, with or without prior notice.</p>
+                        <p><strong>9. Program Modification/Termination:</strong> AGOS Water Services, Inc. reserves the right to modify, suspend, or terminate the AGOS Rewards Program, its rules, tiers, benefits, or earning/redemption mechanics at any time, with or without prior notice.</p>
                         <p><strong>10. Account Status:</strong> Customers must be in good standing to enjoy tier benefits. Accounts that are suspended or disconnected may have their benefits temporarily revoked.</p>
-                        <p><strong>11. Disputes:</strong> Any discrepancies in point calculation must be reported to AGWA customer service within 60 days of the payment date. AGWA's decision on point disputes is final.</p>
+                        <p><strong>11. Disputes:</strong> Any discrepancies in point calculation must be reported to AGOS customer service within 60 days of the payment date. AGOS's decision on point disputes is final.</p>
                         <p><strong>12. Acceptance of Terms:</strong> Continued participation in the Program, including earning and redeeming benefits, constitutes acceptance of these Terms & Conditions.</p>
                     </div>
                  </details>

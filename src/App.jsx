@@ -22,7 +22,7 @@ const MaintenancePage = () => (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col justify-center items-center p-4 text-center">
         <HardHat size={64} className="text-yellow-400 mb-4 animate-bounce" />
         <h1 className="text-4xl font-bold mb-2">Under Maintenance</h1>
-        <p className="text-gray-400">The AGWA portal is currently undergoing maintenance.</p>
+        <p className="text-gray-400">The AGOS portal is currently undergoing maintenance.</p>
         <p className="text-gray-400">We expect to be back online shortly.</p>
     </div>
 );

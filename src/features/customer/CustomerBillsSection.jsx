@@ -221,7 +221,7 @@ const CustomerBillsSection = ({ user, userData, setUserData, db, showNotificatio
         if (bill.invoiceNumber) return bill.invoiceNumber;
         const billDateObj = bill.billDate?.toDate ? bill.billDate.toDate() : null;
         const formattedDateForInvoiceNum = billDateObj ? `${billDateObj.getFullYear()}${String(billDateObj.getMonth() + 1).padStart(2, '0')}${String(billDateObj.getDate()).padStart(2, '0')}` : Date.now().toString().slice(-6);
-        return `AGWA-${bill.id?.slice(0,4).toUpperCase()}-${formattedDateForInvoiceNum}`;
+        return `AGOS-${bill.id?.slice(0,4).toUpperCase()}-${formattedDateForInvoiceNum}`;
     };
 
     if (isLoading || isVerifyingPayment) {

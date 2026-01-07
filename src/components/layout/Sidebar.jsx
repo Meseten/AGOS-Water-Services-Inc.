@@ -36,7 +36,7 @@ const Sidebar = ({
     const sidebarContent = (
         <div className="h-full flex flex-col bg-gradient-to-b from-blue-700 to-blue-900 text-white shadow-2xl">
             <div className="p-5 pt-6 text-center border-b border-blue-600">
-                <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">AGWA</h1>
+                <h1 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">AGOS</h1>
                 <p className="text-xs text-blue-200 font-light mt-0.5 italic">Ensuring Clarity, Sustaining Life.</p>
             </div>
 
